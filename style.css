@@ -1,0 +1,118 @@
+@import url(http://fonts.googleapis.com/css?family=Contrail+One);
+@import url(http://fonts.googleapis.com/css?family=Oxygen);
+
+body
+{
+    background-color: #d7d4b8;
+    font-family: 'Oxygen', sans-serif;
+    padding-right: 100px;
+    padding-left: 100px;
+    background-size: cover;
+}
+
+header
+{
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 250px;
+    position: fixed;
+    margin: 0px auto;
+    padding: 10px;
+    font-family: 'Contrail One', sans-serif;
+    font-size: 30px;
+    color: #78766B;
+    text-shadow: 2px 2px 3px #191919;
+    right-margin: 200px;
+    z-index: 10;
+}
+
+header:before
+{
+    content: "";
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 250px;
+    opacity: .5;
+    z-index: -1;
+    background-image: url("mirrorpavement.jpg");
+    background-size: 100%;
+}
+
+
+.col1
+{
+    margin-top: 250px;
+    float: left;   
+    width: 50%;
+}
+
+.col2
+{
+    margin-top: 300px;
+    float: left;   
+    width: 50%;
+}
+
+
+blockquote
+{
+    background: url("quote.png") no-repeat;
+    color: #424242;
+    margin: 30px;
+    padding: 30px 30px 30px 50px;
+    float: left;
+    font-size: 1.1em
+}
+
+a:link
+{
+    color: #292900;    
+    text-decoration: none;
+}
+
+a:visited
+{
+    color: #848383;
+}
+
+a:hover
+{
+    color: #671313;
+}
+
+a:active
+{
+    color: #525252;
+}
+
+.transition
+{
+    font-size: 1.1em;
+    color: #424242;
+    margin-left: 2.7em;
+    background-color: rgba(103, 19, 19, 0.3);
+    padding: 1.1em 1.2em 1.1em 1.2em;
+    border-radius: 1.1em; 
+}
+
+.ven
+{
+    margin-bottom: 1.5em;
+    padding-left: 6.0em;
+   
+}
+
+footer
+{
+    font-family: 'Contrail One', sans-serif;
+    font-size: 2.0em;
+    color: #424242;
+    clear: both;
+    background-image: url("footerpave.png");
+    background-size: cover;
+    padding: 0.3em;
+    width: 100%
+}
