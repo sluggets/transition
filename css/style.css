@@ -1,0 +1,246 @@
+@import url(http://fonts.googleapis.com/css?family=Contrail+One);
+@import url(http://fonts.googleapis.com/css?family=Oxygen);
+
+body
+{
+    background-color: #d7d4b8;
+    font-family: 'Oxygen', sans-serif;
+    margin: 2em;
+}
+
+header
+{
+    background-image: url("../img/pav65o1920x700.jpg");
+    background-size: 100%;
+    height: 250px;
+    font-family: 'Contrail One', sans-serif;
+    font-size: 30px;
+    color: #78766B;
+    text-shadow: 2px 2px 3px #191919;
+    margin: -2em;
+    margin-bottom: 0;
+}
+
+.header_text
+{
+    margin-top: 2em;
+    margin-left: 2em;
+    padding-top: 1.8em;
+    overflow: auto;
+   
+}
+
+.header_text h1
+{
+    margin-bottom: -0.5em;
+}
+
+.scrollme
+{
+    perspective: 600px;
+}
+
+.animateme
+{
+    transform-origin: center center center;
+
+}
+
+nav
+{
+    background-color: #78766B;
+    font-family: 'Contrail One', sans-serif;
+    color: white;
+    height: 50px;
+    margin: -4em;
+    margin-bottom: 1.5em;
+    margin-top: 0;
+    padding-left: 2em;
+    
+}
+
+nav ul
+{
+    list-style-type: none;
+    margin: 0;
+    padding-left: 1em;
+    
+}
+
+nav ul li
+{
+    float: left;
+    margin-right: 2em;
+    font-size: 1.6em;
+    margin-top: 0.3em;
+}
+nav ul li a:link
+{
+    color: #424242;
+}
+
+nav ul li a:visited
+{
+    color: #424242;
+}
+
+nav ul li a:hover
+{
+    color: #525252;
+    text-shadow: 1px 1px 1px #191919;
+}
+
+nav ul li a:active
+{
+    color: #212121;
+}
+
+#button
+{
+    padding-top: 2em;
+}
+
+#communicate_link
+{
+    /*height: 2em;
+    width: 3em;*/
+    margin-top: -1.6em;
+    margin-bottom: -1.5em;
+    width: 0px;
+    height: 0px;
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    border-bottom: 20px solid rgba(103, 19, 19, 0.3);
+    visibility: hidden;
+}
+
+#com_quiz
+{
+    margin: -4em;
+    margin-bottom: 1.5em;
+    margin-top: 0;
+    background-color: rgba(103, 19, 19, 0.3);
+    /*display: none;*/
+    text-align: center;
+    visibility: hidden;
+}
+
+#safety_quiz
+{
+    padding-bottom: 2em;
+    font-size: 1.5em;
+    color: #424242;
+    visibility: hidden;
+}
+
+#safety_quiz p
+{
+    padding-top: 2em;
+    font-weight: bold;
+}
+
+
+.button
+{
+    background-color: #78766B;
+    color: #424242;
+    border-radius: 5px;
+    border: none ;
+    font-size: 1em;
+    
+}
+
+.button:hover
+{
+    /*color: #ffbd6e;
+    text-shadow: -1px -1px 2px #cc9758;*/
+    color: #d7d4b8;
+    
+
+}
+
+.button:active
+{
+    background-color: #979797;
+
+}
+
+article
+{
+    -webkit-column-count: 2;
+    -moz-column-count: 2;
+    column-count: 2;
+    -webkit-column-width: 425px;
+    -moz-column-width: 425px;
+    column-width: 425px;
+    
+}
+
+blockquote
+{
+    background: url("../img/quote.png") no-repeat;
+    color: #424242;
+    /*margin: 30px;*/
+    padding: 30px 30px 30px 50px;
+    font-size: 1.1em
+}
+
+.transition
+{
+    padding: 30px;
+    font-size: 1.1em;
+    background-color: rgba(103, 19, 19, 0.3);
+    border-radius: 0 0 1.1em 1.1em; 
+    color: #424242;
+    
+}
+
+#ven
+{
+    padding: 30px;
+    background-color: rgba(103, 19, 19, 0.3);
+    background-size: cover;
+    border-radius: 1.1em 1.1em 0 0; 
+}
+#ven img
+{
+   max-height: 100%;
+   max-width: 100%;
+   margin: auto;
+   display: block;
+}
+
+
+a:link
+{
+    color: #292900;    
+    text-decoration: none;
+}
+
+a:visited
+{
+    color: #848383;
+}
+
+a:hover
+{
+    color: #671313;
+}
+
+a:active
+{
+    color: #525252;
+}
+
+footer
+{
+    font-family: 'Contrail One', sans-serif;
+    font-size: 2.0em;
+    color: #424242;
+    /*clear: both;*/
+    background-image: url("../img/footerpave.png");
+    /*background-size: cover;*/
+    /*padding: 0.3em;*/
+    width: 100%;
+    height: 25%;
+}
