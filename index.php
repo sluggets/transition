@@ -32,7 +32,6 @@
           <li><a id="following_distance" href="javascript:void(0)">Following Distance</a></li>
           <li><a id="altered_state" href="javascript:void(0)">Altered State</a></li>
           <li><a id="keep_looking" href="javascript:void(0)">Keep Looking</a></li>
-          <li><a href="#com_article">Test Link</a></li>
         </ul>
       </nav>
       <div id="distraction_link">
@@ -87,6 +86,7 @@
         <img src="img/carvenn5.png" alt="car venn diagram"/>
       </div>
       <div class="transition">
+        <h2>The Challenge</h2>
         <p>It is no longer speculative fiction, it seems certain that transit 
            will be fully autonomous within the near future. The transition
            between the techonolgy we have now, and that certain future
@@ -103,7 +103,8 @@
     </article>
     <div class="left">
       <h1 id="com_article">Communicate</h1>
-        <div class="feedback">
+      <p class="to_top"><a href="#top"><em>To top</em><span><i class="fa fa-arrow-circle-o-up fa-2x"></i></span></a></p>
+      <div class="feedback">
         <?php
            //$answer = $_POST['quizAnswer'];
            //echo $answer;
@@ -111,8 +112,9 @@
             if (isset($_POST['quizAnswer']))
             {
                 $answer = $_POST['quizAnswer'];
-                $num = (int)substr($answer, -1);
-                if ($num <= 3 && $answer[0] == 'r')
+                $val_array = str_getcsv($answer, '-');
+                $num = (int)$val_array[1];
+                if ($num <= 3 && $val_array[0] == 'right')
                 {
                     echo '<div class="correct"><i class="fa fa-check fa-2x"></i><span>Good job, that is CORRECT!</span></div>';
                 }
@@ -138,20 +140,92 @@
     </div>
     <div class="right">
       <h1 id="dist_article">Distraction</h1>
+      <p class="to_top"><a href="#top"><em>To top</em><span><i class="fa fa-arrow-circle-o-up fa-2x"></i></span></a></p>
         <div class="feedback">
         <?php
-           /*$answer = $_POST['quizAnswer'];
-           $num = (int)substr($answer,-1);
-           echo $answer;
-           echo '<p>',$num,'</p>';*/
         
             if (isset($_POST['quizAnswer']))
             {
                 $answer = $_POST['quizAnswer'];
-                $num = (int)substr($answer, -1);
-                if ($num <= 6 && $num >= 4  && $answer[0] == 'r')
+                $val_array = str_getcsv($answer, '-');
+                $num = (int)$val_array[1];
+                if ($num <= 6 && $num >= 4  && $val_array[0] == 'right')
                 {
-                    echo '<p>CORRECT!<i class="fa fa-check fa-3x"></i></p>';
+                    echo '<div class="correct"><i class="fa fa-check fa-2x"></i><span>Good job, that is CORRECT!</span></div>';
+                }
+                elseif ($num > 3 && $num < 7)
+                {
+                    include 'retort.php';
+                }
+            }
+        ?>        
+        </div>
+      <p>Stuff stuff stuff
+      Stuff stuff stuff
+      Stuff stuff stuff
+      Stuff stuff stuff
+      Stuff stuff stuff
+      Stuff stuff stuff
+      Stuff stuff stuff
+      Stuff stuff stuff
+      Stuff stuff stuff
+      Stuff stuff stuff
+      Stuff stuff stuff
+      Stuff stuff stuff</p> 
+    </div>
+    <div class="left">
+      <h1 id="foll_article">Following Distance</h1>
+      <p class="to_top"><a href="#top"><em>To top</em><span><i class="fa fa-arrow-circle-o-up fa-2x"></i></span></a></p>
+        <div class="feedback">
+        <?php
+        
+            if (isset($_POST['quizAnswer']))
+            {
+                $answer = $_POST['quizAnswer'];
+                $val_array = str_getcsv($answer, '-');
+                $num = (int)$val_array[1];
+                if ($num <= 9 && $num >= 7  && $val_array[0] == 'right')
+                {
+                    echo '<div class="correct"><i class="fa fa-check fa-2x"></i><span>Good job, that is CORRECT!</span></div>';
+                }
+                elseif ($num > 6 && $num < 10)
+                {
+                    include 'retort.php';
+                }
+            }
+        ?>        
+        </div>
+      <p>Stuff stuff stuff
+      Stuff stuff stuff
+      Stuff stuff stuff
+      Stuff stuff stuff
+      Stuff stuff stuff
+      Stuff stuff stuff
+      Stuff stuff stuff
+      Stuff stuff stuff
+      Stuff stuff stuff
+      Stuff stuff stuff
+      Stuff stuff stuff
+      Stuff stuff stuff</p> 
+    </div>
+    <div class="right">
+      <h1 id="alt_article">Altered State</h1>
+      <p class="to_top"><a href="#top"><em>To top</em><span><i class="fa fa-arrow-circle-o-up fa-2x"></i></span></a></p>
+        <div class="feedback">
+        <?php
+        
+            if (isset($_POST['quizAnswer']))
+            {
+                $answer = $_POST['quizAnswer'];
+                $val_array = str_getcsv($answer, '-');
+                $num = (int)$val_array[1];
+                if ($num >= 10 && $num <= 12  && $val_array[0] == 'right')
+                {
+                    echo '<div class="correct"><i class="fa fa-check fa-2x"></i><span>Good job, that is CORRECT!</span></div>';
+                }
+                elseif ($num > 9 && $num < 13)
+                {
+                    include 'retort.php';
                 }
             }
         ?>        

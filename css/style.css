@@ -63,14 +63,14 @@ nav ul
 {
     list-style-type: none;
     margin: 0;
-    padding-left: 1em;
+    padding-left: 0.5em;
     
 }
 
 nav ul li
 {
     float: left;
-    margin-right: 2em;
+    margin-right: 0.7em;
     font-size: 1.6em;
     margin-top: 0.3em;
 }
@@ -100,7 +100,7 @@ nav ul li a:active
     padding-top: 2em;
 }
 
-#communicate_link
+#pointer
 {
     /*height: 2em;
     width: 3em;*/
@@ -116,13 +116,16 @@ nav ul li a:active
 
 #com_quiz
 {
-    margin: -4em;
+    margin: -1em;
     margin-bottom: 1.5em;
     margin-top: 0;
+    padding-right: 5em;
+    padding-left: 5em;
     background-color: rgba(103, 19, 19, 0.3);
     /*display: none;*/
     text-align: center;
     visibility: hidden;
+    box-shadow: 2px 3px 2px 1px #aeada6;
 }
 
 #safety_quiz
@@ -181,7 +184,7 @@ blockquote
     background: url("../img/quote.png") no-repeat;
     color: #424242;
     /*margin: 30px;*/
-    padding: 30px 30px 30px 50px;
+    padding: 30px 30px 20px 50px;
     font-size: 1.1em
 }
 
@@ -190,7 +193,7 @@ blockquote
     padding: 30px;
     font-size: 1.1em;
     background-color: rgba(103, 19, 19, 0.3);
-    border-radius: 0 0 1.1em 1.1em; 
+    /*border-radius: 0 0 1.1em 1.1em;*/ 
     color: #424242;
     
 }
@@ -200,7 +203,7 @@ blockquote
     padding: 30px;
     background-color: rgba(103, 19, 19, 0.3);
     background-size: cover;
-    border-radius: 1.1em 1.1em 0 0; 
+    /*border-radius: 1.1em 1.1em 0 0;*/ 
 }
 #ven img
 {
@@ -230,6 +233,67 @@ a:hover
 a:active
 {
     color: #525252;
+}
+
+.left
+{
+    margin-right: 30em;
+    color: #424242;
+    
+}
+
+.right
+{
+    margin-left: 30em;
+    color: #424242;
+}
+
+.feedback
+{
+    padding: 0.5em;
+    font-style: italic;
+    font-size: 1.5em;
+}
+
+.correct
+{
+    background-color: rgba(126, 216, 158, 0.3);
+    padding: 1em;
+    padding-top: 0.5em;
+    text-align: center;
+}
+
+.correct span
+{
+    padding-left: 1em;
+}
+
+.fa-check
+{
+    color: #3F6C4F;
+}
+
+.incorrect
+{
+    background-color: rgba(248, 79, 79, 0.3);
+    padding: 1em;
+    padding-top: 0.5em;
+    text-align: center;
+}
+
+.incorrect span
+{
+    padding-left: 1em;
+}
+
+.to_top span
+{
+    padding-left: 0.5em;
+}
+
+.fa-exclamation-triangle
+{
+    color: #7C2828;
 }
 
 footer
