@@ -34,19 +34,10 @@
           <li><a id="keep_looking" href="javascript:void(0)">Keep Looking</a></li>
         </ul>
       </nav>
-      <div id="distraction_link">
-      </div>
-      <div id="followingdistance_link">
-      </div>
-      <div id="alteredstate_link">
-      </div>
-
       <div id="pointer">
       </div>
 
-      <div id="com_quiz">
-        <!--form id="safety_quiz"  method="post" action=""
-        </form>--> 
+      <div id="quiz">
       </div>
     <article>
       <blockquote cite="http://on.wsj.com/1GrBNaP">
@@ -224,6 +215,41 @@
                     echo '<div class="correct"><i class="fa fa-check fa-2x"></i><span>Good job, that is CORRECT!</span></div>';
                 }
                 elseif ($num > 9 && $num < 13)
+                {
+                    include 'retort.php';
+                }
+            }
+        ?>        
+        </div>
+      <p>Stuff stuff stuff
+      Stuff stuff stuff
+      Stuff stuff stuff
+      Stuff stuff stuff
+      Stuff stuff stuff
+      Stuff stuff stuff
+      Stuff stuff stuff
+      Stuff stuff stuff
+      Stuff stuff stuff
+      Stuff stuff stuff
+      Stuff stuff stuff
+      Stuff stuff stuff</p> 
+    </div>
+    <div class="left">
+      <h1 id="keep_article">Keep Looking</h1>
+      <p class="to_top"><a href="#top"><em>To top</em><span><i class="fa fa-arrow-circle-o-up fa-2x"></i></span></a></p>
+        <div class="feedback">
+        <?php
+        
+            if (isset($_POST['quizAnswer']))
+            {
+                $answer = $_POST['quizAnswer'];
+                $val_array = str_getcsv($answer, '-');
+                $num = (int)$val_array[1];
+                if ($num >= 13 && $num <= 15  && $val_array[0] == 'right')
+                {
+                    echo '<div class="correct"><i class="fa fa-check fa-2x"></i><span>Good job, that is CORRECT!</span></div>';
+                }
+                elseif ($num >= 13 && $num <= 15)
                 {
                     include 'retort.php';
                 }

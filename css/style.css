@@ -114,7 +114,7 @@ nav ul li a:active
     visibility: hidden;
 }
 
-#com_quiz
+#quiz
 {
     margin: -1em;
     margin-bottom: 1.5em;
@@ -122,7 +122,6 @@ nav ul li a:active
     padding-right: 5em;
     padding-left: 5em;
     background-color: rgba(103, 19, 19, 0.3);
-    /*display: none;*/
     text-align: center;
     visibility: hidden;
     box-shadow: 2px 3px 2px 1px #aeada6;
@@ -150,6 +149,7 @@ nav ul li a:active
     border-radius: 5px;
     border: none ;
     font-size: 1em;
+    box-shadow: 1px 1px 2px 1px #6C6A60;
     
 }
 
@@ -158,6 +158,8 @@ nav ul li a:active
     /*color: #ffbd6e;
     text-shadow: -1px -1px 2px #cc9758;*/
     color: #d7d4b8;
+    text-shadow: 1px 1px 1px #191919;
+    box-shadow: 1px 1px 2px 1px #191919;
     
 
 }

@@ -176,14 +176,14 @@ $(document).ready(function() {
        quizArray1 = shuffle(quizArray1);
        quiz1 = quizArray1[0];
        $('#safety_quiz').empty();
-       $('#com_quiz').empty();
+       $('#quiz').empty();
        $('.feedback').empty();
        $('#pointer').css("margin-left", "0em");
        $('#pointer').css("visibility", "visible");
-       $('#com_quiz').append(form);
+       $('#quiz').append(form);
        $('#safety_quiz').append(quiz1); 
        $('#safety_quiz').css("visibility", "visible");
-       $('#com_quiz').css("visibility", "visible");
+       $('#quiz').css("visibility", "visible");
     });
   
     $('#distraction').click(function() {
@@ -191,14 +191,14 @@ $(document).ready(function() {
        quizArray2 = shuffle(quizArray2);
        quiz2 = quizArray2[0];
        $('#safety_quiz').empty();
-       $('#com_quiz').empty();
+       $('#quiz').empty();
        $('.feedback').empty();
        $('#pointer').css("margin-left", "10em");
        $('#pointer').css("visibility", "visible");
-       $('#com_quiz').append(form);
+       $('#quiz').append(form);
        $('#safety_quiz').append(quiz2); 
        $('#safety_quiz').css("visibility", "visible");
-       $('#com_quiz').css("visibility", "visible");
+       $('#quiz').css("visibility", "visible");
     });
     
     $('#following_distance').click(function() {
@@ -206,14 +206,14 @@ $(document).ready(function() {
        quizArray3 = shuffle(quizArray3);
        quiz3 = quizArray3[0];
        $('#safety_quiz').empty();
-       $('#com_quiz').empty();
+       $('#quiz').empty();
        $('.feedback').empty();
        $('#pointer').css("margin-left", "18em");
        $('#pointer').css("visibility", "visible");
-       $('#com_quiz').append(form);
+       $('#quiz').append(form);
        $('#safety_quiz').append(quiz3); 
        $('#safety_quiz').css("visibility", "visible");
-       $('#com_quiz').css("visibility", "visible");
+       $('#quiz').css("visibility", "visible");
     });
 
     $('#altered_state').click(function() {
@@ -221,13 +221,28 @@ $(document).ready(function() {
        quizArray4 = shuffle(quizArray4);
        quiz4 = quizArray4[0];
        $('#safety_quiz').empty();
-       $('#com_quiz').empty();
+       $('#quiz').empty();
        $('.feedback').empty();
        $('#pointer').css("margin-left", "31em");
        $('#pointer').css("visibility", "visible");
-       $('#com_quiz').append(form);
+       $('#quiz').append(form);
        $('#safety_quiz').append(quiz4); 
        $('#safety_quiz').css("visibility", "visible");
-       $('#com_quiz').css("visibility", "visible");
+       $('#quiz').css("visibility", "visible");
+    });
+
+    $('#keep_looking').click(function() {
+       form = '<form id="safety_quiz"  method="post" action="#keep_article"></form>';
+       quizArray5 = shuffle(quizArray5);
+       quiz5 = quizArray5[0];
+       $('#safety_quiz').empty();
+       $('#quiz').empty();
+       $('.feedback').empty();
+       $('#pointer').css("margin-left", "40em");
+       $('#pointer').css("visibility", "visible");
+       $('#quiz').append(form);
+       $('#safety_quiz').append(quiz5); 
+       $('#safety_quiz').css("visibility", "visible");
+       $('#quiz').css("visibility", "visible");
     });
 });
