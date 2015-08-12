@@ -3,7 +3,7 @@
 
 body
 {
-    background-color: #d7d4b8;
+    background-color: #e3e1cd;
     font-family: 'Oxygen', sans-serif;
     margin: 2em;
 }
@@ -187,7 +187,14 @@ blockquote
     color: #424242;
     /*margin: 30px;*/
     padding: 30px 30px 20px 50px;
-    font-size: 1.1em
+    font-size: 1.1em;
+}
+
+.bquote
+{
+    padding: 30px 30px 20px 100px;
+    font-size: 1.1em;
+    color: #424242;
 }
 
 .transition
@@ -215,6 +222,11 @@ blockquote
    display: block;
 }
 
+div.keeptogether 
+{
+    display: inline-block;
+    width: 100%
+}
 
 a:link
 {
@@ -236,6 +248,20 @@ a:active
 {
     color: #525252;
 }
+
+.center
+{
+    margin-right: 15em;
+    margin-left: 15em;
+    font-size: 1.1em;
+    color: #424242;
+}
+
+.center li
+{
+    margin: 1em;
+}
+
 
 .left
 {
@@ -296,6 +322,18 @@ a:active
 .fa-exclamation-triangle
 {
     color: #7C2828;
+}
+
+.dist
+{
+    padding-left: 1em;
+    vertical-align: middle;
+}
+
+.dist_list li
+{
+    margin-bottom: 1em;
+    list-style-type: none;
 }
 
 footer

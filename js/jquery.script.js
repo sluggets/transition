@@ -82,7 +82,7 @@ var question = 'What does punctuality have to do with distraction?';
 var answer1 = 'People that run late speed, thus endangering everyone else on the road.';
 var answer2 = 'Those that run late will <em>always</em> take shortcuts, thus endangering everyone else on the road.';
 var answer3 = 'Absolutely nothing. The world needs more lackadaisical types. We\'re people too!';
-var correct = 'Tardy folks have a decision to make: eat and apply makeup in the car to try and save time, or simply <em>stay</em> late.';
+var correct = 'Tardy folks have a decision to make: eat and apply makeup in the car to try and save time, or simply <strong><em>stay</em></strong> late.';
 
 var distraction3 = quiz(6, question, answer1, answer2, answer3, correct);
 
@@ -162,7 +162,7 @@ var keep_look2 = quiz(14, question, answer1, answer2, answer3, correct);
 var question = 'What does green mean?';
 var answer1 = 'Green means GO!';
 var answer2 = 'It means creep up on the driver in front of you, shrinking your space cushion.';
-var answer3 = 'Politely honk your horn if the vehicle in front of you does not begin moving when the light turns green';
+var answer3 = 'Politely honk your horn if the vehicle in front of you does not begin moving when the light turns green.';
 var correct = '<em>Especially</em> if in front, it means to pause, scan the intersection, left, right, left.';
 
 var keep_look3 = quiz(15, question, answer1, answer2, answer3, correct);
@@ -245,4 +245,5 @@ $(document).ready(function() {
        $('#safety_quiz').css("visibility", "visible");
        $('#quiz').css("visibility", "visible");
     });
+
 });
