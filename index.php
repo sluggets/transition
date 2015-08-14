@@ -101,8 +101,8 @@
            behavior due to the effect of these new technologies, and adapt to 
            unexpected behaviors of a computer algorithm or failing sensors.
            <ul>
-               <li>Stage 1: Our Current State of Vehicle Technology</li>
-               <li>Stage 2: The Transition</li>
+               <li>Stage 1: Traditional Defensive Driving</li>
+               <li>Stage 2: Remaining Defensive During The Transition</li>
                <li>Stage 3: Autonomous Vehicle Utopia</li>
            </ul>
         </p> 
@@ -502,6 +502,10 @@
            A good source for reviewing following distance is
 here: <cite><a href="http://www.imakenews.com/kengarffinternal/e_article001647613.cfm">"Key 2: Get The Big Picture" - The Garff Gazette</a></cite>
         </p>
+        <p>
+           This is a great video by Youtube user <cite><a href="https://www.youtube.com/user/HazardSports">HazardSports</a></cite>:
+        </p>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/KdcwMYihxVk?start=40&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
         <h3>Stage 2: Help Arrives</h3>
         <p>
            Technologies such as ACC(Adaptive Cruise Control) and
@@ -511,7 +515,8 @@ here: <cite><a href="http://www.imakenews.com/kengarffinternal/e_article00164761
            Warnings and/or subtle braking will activate if our following
            distance shrinks to unsafe margins. Drivers may be presented
            with choices as to exactly how much following distance they
-           want. While allowing that choice may just result in 
+           want. However, ACC doesn't know what the road conditions are. 
+           While allowing that choice may just result in 
            the driver always selecting the shortest following distance, 
            that is still likely better than the following distance
            that would otherwise be used. In 
@@ -813,7 +818,7 @@ here: <cite><a href="http://www.imakenews.com/kengarffinternal/e_article00164761
            They will be bristling with infrared, SONAR, LIDAR, RADAR,
            and other sensors in varying combinations at key vantage 
            points on the vehicle. Instead of shifting focus like we 
-           have to, these inputs will be simultaneously processed by
+           humans have to, these inputs will be simultaneously processed by
            powerful CPUs drawing on vast databases of stored data.
         </p>
     </div>

@@ -74,7 +74,7 @@ var distraction1 = quiz(4, question, answer1, answer2, answer3, correct);
 var question = 'I have a perfect driving record, aren\'t I skillful enough to make my own judgement call regarding phone use?';
 var answer1 = 'State law will specifically spell out what you may or may not do, that is your only consideration.';
 var answer2 = 'Distracted driving admonitions are only for young drivers who have no experience on the road.';
-var answer3 = 'Only on long, boring stretches of interstate in Nebraska.';
+var answer3 = 'Only if you have Forward Collision Warning and Lane Departure Warning systems to compensate for lax attention.';
 var correct = 'You may be falling into <a href="http://nyti.ms/1qpRM1e">"Lucky Fool Syndrome"</a>, attributing to skill, what in fact probably has been sheer luck.';
 var distraction2 = quiz(5, question, answer1, answer2, answer3, correct);
 
@@ -90,7 +90,7 @@ var quizArray2 = [distraction1, distraction2, distraction3];
 
 /* build the following distance quizzes */
 var question = 'What is a smart thing to do about someone who is not following <strong>you</strong> at a safe distance?';
-var answer1 = 'Slam on the brakes, that will teach those tailgating autonomous vehicles.';
+var answer1 = 'Minimize the space cushion in front of you to prevent the driver from passing and cutting in front of you.';
 var answer2 = 'It is a driver\'s responsiblity to always speed up to match the flow of traffic.';
 var answer3 = 'Gently tap on the brakes to flash your brake lights at the vehicle behind you.';
 var correct = 'Slow down slightly to encourage the person to pass and thereby regaining a space cushion behind you.';
@@ -105,7 +105,7 @@ var correct = 'The closer you are following the person in front of you, the more
 var foll_dist2 = quiz(8, question, answer1, answer2, answer3, correct);
 
 var question = 'What is a good following distance?';
-var answer1 = '1 second of following distance for every 20 mph in speed.';
+var answer1 = 'Any distance setting on Adaptive Cruise Control will always be fine, otherwise it wouldn\'t be an option.';
 var answer2 = '<em>Always</em> 2 seconds, that is even what the DMV Driver\'s Manual says.';
 var answer3 = 'One car length if traveling under 45 mph, otherwise 1.5 car lengths.';
 var correct = 'Never <em>less</em> than 2 seconds, but usually more depending upon conditions. Try 4 seconds out!';
@@ -124,7 +124,7 @@ var correct = 'After 24 hours of being awake, impairment is similar to a blood-a
 var alt_st1 = quiz(10, question, answer1, answer2, answer3, correct);
 
 var question = 'What is the best way to prevent emotional preoccupation while driving?';
-var answer1 = 'Whatever you do, just don\'t start tearing up, there are no wipers for your eyes.';
+var answer1 = 'So long as you aren\'t sobbing, since there are no wipers for your eyes.';
 var answer2 = 'It\'s a good thing I\'m such a defensive driver, I know to compensate for everybody else\'s mistakes, including this COMPLETE BONEHEAD CHANGING LANES IN THE MIDDLE OF THE INTERSECTION AAAAAAARRGGGGGGH!';
 var answer3 = 'A friendly smiling wave only solves problems, and never antagonizes anyone!';
 var correct = 'Take a deep breath, and get perspective, people tend to transform into werewolves behind the wheel.';
@@ -133,9 +133,9 @@ var alt_st2 = quiz(11, question, answer1, answer2, answer3, correct);
 
 var question = 'In an autonomous vehicle, can\'t I be in any altered state that I wish?';
 var answer1 = 'So long as you are sober enough to input the correct destination in google maps!';
-var answer2 = 'It will be less of a concern, I won\'t have road rage if my eyes are closed and I\'m listening to "<a href="https://en.wikipedia.org/wiki/Selected_Ambient_Works_85%E2%80%9392">Selected Ambient Works 85-92</a>".';
+var answer2 = 'The only consideration is that autonomous vehicles may increase chances of motion sickness.';
 var answer3 = 'If I\'m <em>really</em> sick, I just need to remember to bring a bucket.';
-var correct = 'Autonomous vehicles elevate chances of motion sickness, and you will still need to be capable of assuming control in an emergency.';
+var correct = 'For a long time yet, you will still need to be capable of assuming control in an emergency.';
 
 var alt_st3 = quiz(12, question, answer1, answer2, answer3, correct);
 
