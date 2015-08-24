@@ -172,9 +172,10 @@ var quizArray5 = [keep_look1, keep_look2, keep_look3];
 $(document).ready(function() {
 
     $('#communicate').click(function() {
-       form = '<form id="safety_quiz"  method="post" action="#com_article"></form>';
+       form = '<form id="safety_quiz" method="post" action="communicate.php"></form>';
        quizArray1 = shuffle(quizArray1);
        quiz1 = quizArray1[0];
+       /* handles quizzes */
        $('#safety_quiz').empty();
        $('#quiz').empty();
        $('.feedback').empty();
@@ -184,10 +185,11 @@ $(document).ready(function() {
        $('#safety_quiz').append(quiz1); 
        $('#safety_quiz').css("visibility", "visible");
        $('#quiz').css("visibility", "visible");
+       /* handles sections */
     });
   
     $('#distraction').click(function() {
-       form = '<form id="safety_quiz"  method="post" action="#dist_article"></form>';
+       form = '<form id="safety_quiz"  method="post" action="distraction.php"></form>';
        quizArray2 = shuffle(quizArray2);
        quiz2 = quizArray2[0];
        $('#safety_quiz').empty();
@@ -202,7 +204,7 @@ $(document).ready(function() {
     });
     
     $('#following_distance').click(function() {
-       form = '<form id="safety_quiz"  method="post" action="#foll_article"></form>';
+       form = '<form id="safety_quiz"  method="post" action="following.php"></form>';
        quizArray3 = shuffle(quizArray3);
        quiz3 = quizArray3[0];
        $('#safety_quiz').empty();
@@ -217,7 +219,7 @@ $(document).ready(function() {
     });
 
     $('#altered_state').click(function() {
-       form = '<form id="safety_quiz"  method="post" action="#alt_article"></form>';
+       form = '<form id="safety_quiz"  method="post" action="altered.php"></form>';
        quizArray4 = shuffle(quizArray4);
        quiz4 = quizArray4[0];
        $('#safety_quiz').empty();
@@ -232,7 +234,7 @@ $(document).ready(function() {
     });
 
     $('#keep_looking').click(function() {
-       form = '<form id="safety_quiz"  method="post" action="#keep_article"></form>';
+       form = '<form id="safety_quiz"  method="post" action="keep.php"></form>';
        quizArray5 = shuffle(quizArray5);
        quiz5 = quizArray5[0];
        $('#safety_quiz').empty();

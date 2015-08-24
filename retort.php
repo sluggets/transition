@@ -41,14 +41,14 @@
                         being a defensive driver means you are trying to
                         prevent that 1 time out of 100 that may be a
                         serious accident. Additionally, assisted driver
-                        systems shouldn\' be relied on to perform primary
+                        systems shouldn\'t be relied on to perform primary
                         driver duties.', $after;
             break;
         case 6:
             echo $pre, 'Forethought may not be a chronically late
                         person\'s strong suit. But, taking time to consider the
                         potential safety threat of finishing grooming and/or
-                        breakfast in driver\'s seat should at least convince
+                        breakfast in the driver\'s seat should at least convince
                         a person running behind to stay late. Better to 
                         arrive late and safe.', $after;
             break;
@@ -57,14 +57,15 @@
                        'Stay out of car packs, and stay to the right 
                         unless passing. Traveling the speed limit when
                         conditions allow will help as well. Slowing 
-                        even just <em>slightly</em> by letting off of
+                        even just <strong>slightly</strong> by letting off of
                         the accelerator will get rid of a tailgater more
                         quickly.', $after; 
             break;
         case 8:
             echo $pre, 'Braking reaction time is not the only consideration.
                         Monitoring all of your mirrors, checking your space
-                        cushion to the left and right, and <em>especially</em>
+                        cushion to the left and right, and 
+                        <strong>especially</strong>
                         scanning ahead on the road is all negatively affected
                         by a limited following distance where focus is
                         devoted more exclusively to the vehicle in front.', $after;
@@ -75,13 +76,14 @@
                         shortest setting is bad defensive driving. 
                         Rigid formulas often don\'t specifically account
                         for weather and road conditions, but may be good
-                        advice for a <em>minimum</em> following distance.', $after;
+                        advice for a <strong>minimum</strong> 
+                        following distance.', $after;
             break;
         case 10:
             echo $pre, 'Both are impaired driving! Drunk driving is a much
                         more clearly defined standard, and one could simply
                         decide to never drive under the influence of 
-                        <em>any</em> amount of alcohol. Deciding when
+                        <strong>any</strong> amount of alcohol. Deciding when
                         "slightly tired" becomes "dangerously drowsy" is 
                         a more nuanced differentiation.', $after; 
             break; 
