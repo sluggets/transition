@@ -1,7 +1,7 @@
 <?php
     include 'header.php';
 ?>
-    <div class="right">
+    <div class="left">
       <h1 id="dist_article">Distraction</h1>
         <div class="feedback">
         <?php

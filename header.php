@@ -5,7 +5,6 @@
     <link rel="stylesheet"  href="font-awesome/css/font-awesome.min.css">
     <link rel="stylesheet" type="text/css" href="css/style.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
-    <script src="js/jquery.scrollme.js"></script>
     <script src="js/jquery.script.js"></script>
   </head>
   <body>
@@ -15,6 +14,14 @@
           <h3>Defensive Driving During A Crucial Transition</h3>
       </div>
     </header>
+      <nav id="second">
+        <ul>
+          <li><a href="index.php">Home</a></li>
+          <li><a href="javascript:void(0)">Sources</a></li>
+          <li><a href="#acronym_soup">Acronym Soup</a></li>
+          <li><a href="javascript:void(0)">Educate Yourself</a></li>
+        </ul>
+      </nav>
       <nav>
         <ul>
           <li><a id="communicate" href="javascript:void(0)">Communicate</a></li>
@@ -26,6 +33,5 @@
       </nav>
       <div id="pointer">
       </div>
-
       <div id="quiz">
       </div>

@@ -1,7 +1,7 @@
 <?php
     include 'header.php';
 ?>
-    <div class="right">
+    <div class="left">
       <h1 id="alt_article">Altered State</h1>
         <div class="feedback">
         <?php

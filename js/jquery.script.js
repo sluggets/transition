@@ -248,4 +248,18 @@ $(document).ready(function() {
        $('#quiz').css("visibility", "visible");
     });
 
+    $('#sensor').click(function() {
+        $('#sensor_tech').toggle("blind");
+        $('#chev_right').toggle();
+        $('#chev_down').toggle();
+    });
+
+    $('#assisted').click(function() {
+        $('#assisted_tech').toggle("blind");
+    });
+
+    $('#human').click(function() {
+        $('#human_tech').toggle("blind");
+    });
+
 });

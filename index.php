@@ -86,15 +86,16 @@
         <p><cite><a href="http://www.dailymail.co.uk/sciencetech/article-3098231/Would-stand-self-driving-car-Video-reveals-Volvo-crashing-onlookers.html">-Would You Stand In Front of a Moving Car?..., Ellie Zolfagharifard, Daily Mail</a></p>
         <iframe width="853" height="480" src="https://www.youtube.com/embed/_8nnhUCtcO8?rel=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
       </div>
-    <div class = "center">
+    <div class="center" id="acronym_soup">
       <h1>Sensors and Soup</h1>
       <p>Like much of technology, descriptions and summaries often end up in
          a kind of acronym soup, and this is no different when it comes to
          the sensors and various assisted driver technologies involved with 
          modern vehicles and autonomous vehicles.
       </p>
-      <h2>Vehicle Sensors and Technology</h2>
-      <ul class="tech_list">
+      <h2><a id="sensor"><span id="chev_space"><i id="chev_right" class="fa fa-chevron-circle-right"></i><i id="chev_down" class="fa fa-chevron-circle-down"></i></span>Vehicle Sensors and Technology</a></h2>
+      <div id="sensor_tech">
+      <ul>
         <li>RADAR (Radio Detection and Ranging): A sensor that uses reflected
            radio waves to detect things.
         </li>
@@ -104,7 +105,7 @@
             or actively emit pulses of sound to monitor the echoes.
         </li>
         <li>
-            Camera (Computer Vision): Either relayed to a display in the
+            Optical (Camera Lens): Either relayed to a display in the
             vehicle's console or processed by a perception algorithm.
         </li>
         <li>
@@ -139,8 +140,10 @@
             upon it.
         </li>
       </ul>
-      <h2>Assisted Driver Technology</h2>
-      <ul class="tech_list">
+      </div>
+      <h2><a id="assisted"><span id="chev_space"><i id="chev_right" class="fa fa-chevron-circle-right"></i><i id="chev_down" class="fa fa-chevron-circle-down"></i></span>Assisted Driver Technology</a></h2>
+      <div id="assisted_tech">
+      <ul>
         <li>
              FCW (Forward Collision Warning): Anticipates collisions based on 
              current speed and proximity of obstacles ahead on the road.
@@ -172,10 +175,17 @@
             the vehicle to driver for backing. May also include sonar to trigger
             a visual/audible warning of obstacles in path.
         </li>
+        <li>
+            Pedestrian Detection Technology: Combination of RADAR and cameras
+            may use braking and/or steering to avoid collision with a detected
+            pedestrian or bicyclist.
+        </li>
 
       </ul>
-      <h2>Selected Human Sensors and Technology</h2>
-      <ul class="tech_list">
+      </div>
+      <h2><a id="human"><span id="chev_space"><i id="chev_right" class="fa fa-chevron-circle-right"></i><i id="chev_down" class="fa fa-chevron-circle-down"></i></span>Selected Human Sensors and Technology</a></h2>
+      <div id="human_tech">
+      <ul>
         <li>
             Vision: A sensor that recieves information from reflected light.
         </li>
@@ -197,4 +207,5 @@
             Brain: Processes all the above and acts upon it.
         </li>
       </ul>
+      </div>
     </div>

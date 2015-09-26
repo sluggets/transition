@@ -49,11 +49,20 @@
            than others. The ability for AVs to see low-profile vehicles
            and pedestrians on the roadway depends on just the right sensor
            suite and the learning process of gradually increasing sizes
-           of databases containing sensor patterns that the AV knows to 
-           associate with them. Figuring out the best way to communicate 
-           your presence as a cyclist, motorcyclist, or pedestrian 
-           will not necessarily be that same way that we communicate these
-           things to a human eye. 
+           of datasets containing sensor patterns that the AV knows to 
+           associate with them. 
+        </p>
+        <p>
+           Figuring out the best way to communicate 
+           your presence to an AV as a cyclist, motorcyclist, or pedestrian 
+           will not necessarily be the same way that we communicate these
+           things to a human eye. Our whole driving world is based upon the
+           concept of humans communicating with other humans using gestures
+           (whether they be polite or not), eye contact, acceleration,
+           deceleration, and steering maneuvers. These communications indicate
+           to other humans that <em>this</em> driver may be about engage in
+           <em>that</em> kind of action. Many of these same cues may be 
+           <em>far</em> less informative to an AV.
         </p>
         <h3>Stage 3: Legacy Vehicles</h3>
         <p>
