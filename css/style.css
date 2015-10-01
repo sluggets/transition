@@ -238,12 +238,12 @@ a:link
 
 a:visited
 {
-    color: #848383;
+    color: #424242;
 }
 
 a:hover
 {
-    color: #671313;
+    color: #848383;
 }
 
 a:active
@@ -271,12 +271,13 @@ a:active
     padding-right: 1em;
 }
 
-#chev_right
+#chev_right, #chev_right_assisted, #chev_right_human
 {
     display: inline;
 }
 
-#chev_down
+#chev_down, #chev_down_assisted, #chev_down_human
+
 {
     display: none;
 }

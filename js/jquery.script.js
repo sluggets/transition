@@ -256,10 +256,14 @@ $(document).ready(function() {
 
     $('#assisted').click(function() {
         $('#assisted_tech').toggle("blind");
+        $('#chev_right_assisted').toggle();
+        $('#chev_down_assisted').toggle();
     });
 
     $('#human').click(function() {
         $('#human_tech').toggle("blind");
+        $('#chev_right_human').toggle();
+        $('#chev_down_human').toggle();
     });
 
 });

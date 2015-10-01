@@ -141,7 +141,7 @@
         </li>
       </ul>
       </div>
-      <h2><a id="assisted"><span id="chev_space"><i id="chev_right" class="fa fa-chevron-circle-right"></i><i id="chev_down" class="fa fa-chevron-circle-down"></i></span>Assisted Driver Technology</a></h2>
+      <h2><a id="assisted"><span id="chev_space"><i id="chev_right_assisted" class="fa fa-chevron-circle-right"></i><i id="chev_down_assisted" class="fa fa-chevron-circle-down"></i></span>Assisted Driver Technology</a></h2>
       <div id="assisted_tech">
       <ul>
         <li>
@@ -183,7 +183,7 @@
 
       </ul>
       </div>
-      <h2><a id="human"><span id="chev_space"><i id="chev_right" class="fa fa-chevron-circle-right"></i><i id="chev_down" class="fa fa-chevron-circle-down"></i></span>Selected Human Sensors and Technology</a></h2>
+      <h2><a id="human"><span id="chev_space"><i id="chev_right_human" class="fa fa-chevron-circle-right"></i><i id="chev_down_human" class="fa fa-chevron-circle-down"></i></span>Selected Human Sensors and Technology</a></h2>
       <div id="human_tech">
       <ul>
         <li>
