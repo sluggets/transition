@@ -173,3 +173,7 @@
         attribute($altered_url[$i], $altered_byline[$i]);
     }
 ?>
+
+<?php
+    include 'footer.php';
+?>

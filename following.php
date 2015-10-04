@@ -110,3 +110,6 @@ here: <cite><a href="http://www.imakenews.com/kengarffinternal/e_article00164761
         </p> 
         <p class="to_top"><a href="#top"><em>To top</em><span><i class="fa fa-arrow-circle-o-up fa-2x"></i></span></a></p>
     </div>
+<?php
+    include 'footer.php';
+?>

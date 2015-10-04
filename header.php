@@ -18,8 +18,7 @@
         <ul>
           <li><a href="index.php">Home</a></li>
           <li><a href="sources.php">Sources</a></li>
-          <li><a href="#acronym_soup">Acronym Soup</a></li>
-          <li><a href="javascript:void(0)">Educate Yourself</a></li>
+          <li><a href="index.php#acronym_soup">Acronym Soup</a></li>
         </ul>
       </nav>
       <nav>

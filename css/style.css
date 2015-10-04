@@ -6,13 +6,14 @@ body
     background-color: #e3e1cd;
     font-family: 'Oxygen', sans-serif;
     margin: 2em;
+    width: 100%;
 }
 
 header
 {
     background-image: url("../img/pav65o1920x700.jpg");
     background-size: 100%;
-    height: 250px;
+    height: 255px;
     font-family: 'Contrail One', sans-serif;
     font-size: 30px;
     color: #78766B;
@@ -56,7 +57,6 @@ nav
     margin-bottom: 1.5em;
     margin-top: 0;
     padding-left: 2em;
-    
 }
 
 nav ul
@@ -64,15 +64,17 @@ nav ul
     list-style-type: none;
     margin: 0;
     padding-left: 0.5em;
+    white-space: nowrap;
     
 }
 
 nav ul li
 {
-    float: left;
+    /*float: left;*/
     margin-right: 0.7em;
     font-size: 1.6em;
     margin-top: 0.3em;
+    display: inline-block;
 }
 nav ul li a:link
 {
@@ -192,7 +194,7 @@ blockquote
 
 .bquote
 {
-    padding: 30px 30px 20px 100px;
+    padding: 30px 30px 20px 30px;
     font-size: 1.1em;
     color: #424242;
 }
@@ -379,12 +381,32 @@ a:active
 footer
 {
     font-family: 'Contrail One', sans-serif;
-    font-size: 2.0em;
+    font-size: 1.5em;
     color: #424242;
-    /*clear: both;*/
     background-image: url("../img/footerpave.png");
-    /*background-size: cover;*/
-    /*padding: 0.3em;*/
     width: 100%;
     height: 25%;
+    margin-left: -1.5em;
+    margin-top: 4em;
+}
+
+.footer_text
+{
+    padding: 0.1em;
+    margin-left: 3em;
+}
+
+.footer_text a:link 
+{
+    color: #78766B;
+} 
+
+.footer_text a:visited
+{
+    color: #78766B;
+}
+
+.footer_text a:hover
+{
+    color: #78766B;
 }
