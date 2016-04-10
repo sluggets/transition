@@ -7,6 +7,8 @@
             <li id="pr">
               <h3 class="list-group-item-heading"><a href="javascript:void(0)">Projects</a></h3>
                 <p id="projects" class="list-group-item-text">
+                  <a href="http://tribute.timlongoria.com" target="_blank">Jojo & Lucent Tribute<i class="fa fa-external-link"></i></a><br>
+                  <a href="http://weather.timlongoria.com" target="_blank">Local Weather<i class="fa fa-external-link"></i></a><br>
                   <a href="http://calculator.timlongoria.com" target="_blank">Calculonator<i class="fa fa-external-link"></i></a><br>
                   <a href="http://wordfib.timlongoria.com" target="_blank">Wordfib<i class="fa fa-external-link"></i></a><br>
                   <a href="http://ocarinaquotes.timlongoria.com" target="_blank">Ocarina of Time Quote Generator<i class="fa fa-external-link"></i></a><br>
